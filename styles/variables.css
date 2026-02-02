@@ -1,4 +1,12 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root {
+	--bg-page-image: url('../images/cover-image-dark.png');
+	--rec: rgba(255, 0, 112, 1);
+	--accent-color: rgba(255, 0, 112, 1);
+	--button-hover-accent-color: rgba(255, 0, 112, 0.4);
+	--title-text-color: rgba(0, 0, 40, 1);
+	--header-footer-title-color: rgba(219, 0, 255, 1);
+	--card-text-color: rgba(241, 178, 206, 1);
+	--header-footer-mobile-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+	--header-footer-tablet-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+	--header-footer-pc-font-size: clamp(9.8125rem, 3.1971rem + 10.3365vw, 12.5rem);
+}
