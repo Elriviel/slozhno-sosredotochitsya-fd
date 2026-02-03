@@ -50,7 +50,7 @@
 
 .header__theme-menu-button:focus-visible {
 	outline: none;
-	outline: 1px solid var(--menu-border);
+	border-bottom: 1px solid var(--menu-border);
 }
 
 .header__theme-menu-button:hover {
@@ -243,8 +243,6 @@
 	}
 
 	.header__theme-menu {
-		justify-self: end;
-		align-self: start;
 		margin-block-start: 192px;
 		margin-inline-end: 20px;
 	}
@@ -271,14 +269,12 @@
 	}
 
 	.section {
-		gap: 20px;
 		margin-inline-start: 20px;
 		margin-inline-end: 20px;
 	}
 
 	.section-reasons {
 		grid-template-columns: 1fr 1fr 1fr;
-		grid-template-rows: 1fr 1fr;
 	}
 
 	.card-reasons {
@@ -287,7 +283,6 @@
 
 	.section-answer {
 		grid-template-columns: 1fr 1fr 1fr;
-		grid-template-rows: min-content min-content min-content min-content;
 	}
 
 	.card-answer {
@@ -300,21 +295,29 @@
 
 	.section-how {
 		grid-template-columns: 1fr 1fr 1fr;
-		grid-template-rows: min-content min-content min-content min-content min-content min-content;
+		grid-template-rows: min-content min-content;
 	}
-
+	.title-reasons{
+		max-width: 236px;
+	}
+	.card-reasons{
+		margin-inline-start: 7px;
+	}
 	.card-how {
 		grid-column: 2 /span 2;
 	}
 
 	.title-how {
 		grid-column: 2 /span 2;
+		margin-inline-start: 7px;
 	}
 
 	.section-how-title {
 		grid-row: 1/ span 2;
 	}
-
+	.card-how{
+		margin-inline-start: 7px;
+	}
 	.gallery {
 		gap: 20px;
 		grid-template-columns: 1fr 1fr 1fr;
@@ -377,15 +380,14 @@
 	.header__theme-menu {
 		justify-self: center;
 		margin-block-start: 20px;
+		margin-inline-end: 0;
 	}
 
 	.header__theme-menu-list {
-		display: flex;
 		flex-direction: row;
 	}
 
 	.header-title {
-		margin-inline-start: 0;
 		margin-block-start: 273px;
 		margin-block-end: 114px;
 		font-size: var(--header-footer-pc-font-size);
@@ -394,9 +396,10 @@
 	.header-text {
 		max-width: 491px;
 	}
-
+	.card-reasons{
+		margin-inline-start: 0;
+	}
 	.section-answer {
-		display: grid;
 		grid-template-columns: repeat(3,1fr);
 		grid-template-rows: repeat(2, min-content);
 	}
@@ -408,6 +411,12 @@
 		grid-column: span 1;
 	}
 
+	.title-how {
+		margin-inline-start: 0;
+	}
+	.card-how{
+		margin-inline-start: 0;
+	}
 	.footer {
 		min-height: 768px;
 	}
