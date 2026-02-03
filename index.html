@@ -6,16 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="color-scheme" content="dark light">
     <title>Сложно сосредоточиться</title>
-    <script src="./scripts/script.js"></script>
+    <script src="./scripts/script.js" defer></script>
+    <link rel="icon" href="favicon.ico" sizes="any">
+    <link rel="icon" href="icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <link rel="stylesheet" href="./styles/variables.css">
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/dark.css">
     <link rel="stylesheet" href="./styles/light.css">
-    <link rel="stylesheet" href="./fonts/fonts.css">
     <link rel="stylesheet" href="./styles/globals.css">
-    <link rel="icon" href="favicon.ico" sizes="any">
-    <link rel="icon" href="icon.svg" type="image/svg+xml">
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="stylesheet" href="./fonts/fonts.css">
   </head>
   <body class="page">
     <header class="header decorated-zone">
@@ -46,10 +46,10 @@
         </ul>
       </nav>
       <span class="header-rec" aria-hidden="true">REC</span>
-      <h1 class="header-title">no focus</h1>
-      <p class="header-p title-decor">
+      <h1 class="header-title main-titles">no focus</h1>
+      <p class="header-text title-decor">
         Что делать, когда не можешь 
-        делать ничего <br>
+        делать ничего
         Или почему нам так сложно 
         сконцентрироваться, особенно 
         когда очень надо</p>
@@ -58,7 +58,7 @@
       <section class="section section-reasons">
         <h2 class="section-title">Почему сосредоточиться так сложно</h2>
         <article class="card card-reasons">
-          <h3 class="card-title title-decor">Многозадачность</h3>
+          <h2 class="card-title title-decor">Многозадачность</h2>
           <p class="card-text ">Особенно сложно сосредоточиться, 
             когда задач много и все они — 
             важные. Где же легендарная многозадачность, 
@@ -73,7 +73,7 @@
             невнимательно: ошибаемся и быстро устаём.</p>
         </article>
         <article class="card card-reasons">
-          <h3 class="card-title title-decor ">Дофамин</h3>
+          <h2 class="card-title title-decor ">Дофамин</h2>
           <p class="card-text">
             С гормонами стресса всё понятно, 
             но дальше — ещё интереснее. В 
@@ -97,8 +97,8 @@
       </section>
       <section class="section section-answer">
         <h2 class="section-title title-answer">Что снижает концентрацию внимания?</h2>
-        <article class="card card-answer card-concentration">
-          <h3 class="card-title title-decor">Концентрация</h3>
+        <article class="card card-answer">
+          <h2 class="card-title title-decor">Концентрация</h2>
           <p class="card-text">Как концентрация может снижаться из-за… 
             концентрации? Любая стрессовая ситуация 
             (и резко меняющийся мир в целом) заставляет
@@ -109,8 +109,8 @@
              Концентрация — мышца, и она может 
              не выдержать, если не давать ей отдохнуть.</p>
         </article>
-        <article class="card card-answer card-eat">
-          <h3 class="card-title title-decor">Еда</h3>
+        <article class="card card-answer">
+          <h2 class="card-title title-decor">Еда</h2>
           <p class="card-text">«Быстрые углеводы» — сахар, белый 
             хлеб, сладости — молниеносно 
             доставляют в мозг энергию и 
@@ -123,8 +123,8 @@
             мы чувствуем усталость и сонливость. 
             И хотим ещё больше быстрых углеводов.</p>
         </article>
-        <article class="card card-answer card-gadget">
-          <h3 class="card-title title-decor">Гаджеты</h3>
+        <article class="card card-answer">
+          <h2 class="card-title title-decor">Гаджеты</h2>
           <p class="card-text">Да-да, это та самая ситуация, когда 
             на экране ноутбука — код, в 
             наушниках — подкаст, а на 
@@ -140,12 +140,13 @@
             времени затем нужно, чтобы 
             вернуться к работе.</p>
         </article>
+        
       </section>
       <section class="section section-how">
         <h2 class="section-title section-how-title">Как концентрироваться лучше, чем золотая рыбка (то есть дольше трёх секунд)</h2>
-        <h3 class="card-title title-decor title-how">5 простых (на самом деле не очень) советов</h3>
+        <h2 class="card-title title-decor title-how">5 простых (на самом деле не очень) советов</h2>
         <article class="card card-how">
-          <h3 class="card-title title-decor regular-card-title">Представьте небо и облака</h3>
+          <h2 class="card-title title-decor regular-card-title">Представьте небо и облака</h2>
           <p class="card-text">Или листья в ручье. Тут дело в лёгкой 
             медитации, которая помогает 
             успокоиться. Ведь часто именно 
@@ -164,7 +165,7 @@
            будущего.</p>
         </article>
         <article class="card card-how">
-          <h3 class="card-title title-decor regular-card-title">Включите музыку</h3>
+          <h2 class="card-title title-decor regular-card-title">Включите музыку</h2>
           <p class="card-text">Но не любую, и не любимую. 
             Любимая может быть связана 
             с сильными положительными 
@@ -177,7 +178,7 @@
             или нейромузыкой.</p>
         </article>
         <article class="card card-how">
-          <h3 class="card-title title-decor regular-card-title">Прогуляйтесь</h3>
+          <h2 class="card-title title-decor regular-card-title">Прогуляйтесь</h2>
           <p class="card-text">Или даже пробегитесь. Лучше 
             найти парк или лес: один 
             эксперимент <a href="https://www.sciencedirect.com/science/article/abs/pii/S0272494415000328" class="link" target="_blank">показал</a>, что 
@@ -194,7 +195,7 @@
             прогулка — тоже отличный вариант.</p>
         </article>
         <article class="card card-how">
-          <h3 class="card-title title-decor regular-card-title">Хорошо ешьте</h3>
+          <h2 class="card-title title-decor regular-card-title">Хорошо ешьте</h2>
           <p class="card-text">Мы — не ваша бабушка, но это 
             правда важно. Выбирайте продукты, 
             которые препятствуют резким 
@@ -206,7 +207,7 @@
             цельнозерновой пшеницы.</p>
         </article>
         <article class="card card-how">
-          <h3 class="card-title title-decor regular-card-title">Читайте</h3>
+          <h2 class="card-title title-decor regular-card-title">Читайте</h2>
           <p class="card-text">Настоящие бумажные книги. 
             Это правда помогает с 
             концентрацией: чтобы прочитать 
@@ -220,7 +221,7 @@
         </article>
       </section>
       <section class="gallery">
-        <h3 class="card-title title-decor gallery-title">А можно в картинках?</h3>
+        <h2 class="card-title title-decor gallery-title">А можно в картинках?</h2>
         <img src="./images/sunset.png" alt="Закат" loading="lazy" class="img sunset">
         <img src="./images/ice-cream.png" alt="Мороженное" loading="lazy" class="img ice-cream">
         <img src="./images/tape.png" alt="Касcета" loading="lazy" class="img compact-cassette">
@@ -229,7 +230,7 @@
       </section>
     </main>
     <footer class="footer decorated-zone">
-      <h2 class="footer-title">focus</h2>
+      <h2 class="footer-title main-titles">focus</h2>
     </footer>
   </body>
 </html>

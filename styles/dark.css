@@ -1,9 +1,13 @@
 :root.theme-dark {
   --rec: rgba(255, 0, 112, 1);
   --bg-page-image: url('../images/cover-image-dark.png');
+  --corner: rgba(255, 0, 112, 1);
+  --menu: rgba(255, 0, 112, 1);
+  --menu-border: rgba(255, 0, 112, 1);
   --accent-color: rgba(255, 0, 112, 1);
   --button-hover-accent-color: rgba(255, 0, 112, 0.4);
-  --title-text-color: rgba(0, 0, 40, 1);
+  --card-title-text-color: rgba(0, 0, 40, 1);
+  --title-text-color: rgba(255, 0, 112, 1);
   --header-footer-title-color: rgba(219, 0, 255, 1);
   --card-text-color: rgba(241, 178, 206, 1);
 }
